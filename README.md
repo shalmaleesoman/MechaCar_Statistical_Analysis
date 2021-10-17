@@ -61,3 +61,21 @@ An in depth of each lot is as follows:
 * An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population 
 
 ![del 3, 2](https://user-images.githubusercontent.com/86750935/137646095-91b4cb95-1e16-4f77-bfd6-06fc15a83cf9.png)
+
+* the results show that tje p-value for all the lots is .06028, which is outside the significance level, with a confidence interval of  93.972%.
+* Lot 1 has a p-value of 1, null hypothesis cannot be rejected
+* Lot 2 has a p-value of .0672, null hypotesis cannot be rejected
+* Lot 3 has a p-value of 0, reject the null hypothesis
+
+
+## Deliverable 4: tudy Design: MechaCar vs Competition
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
+
+* What metric or metrics are you going to test?-- fuel efficiency, horsepower and maintainence
+* What is the null hypothesis or alternative hypothesis?-- HO: There is no statistical difference between the competition's mpg dataset and MechaCar's mpg dataset.
+
+Ha: The true mean of MechaCar's mpg is greater than the mean of the competitor's mpg.
+* What statistical test would you use to test the hypothesis? And why?-- The t-test because it provides the essential things necessary such as: the next steps for the environment
+
+* What data is needed to run the statistical test?-- p-value that is set at 0.05
