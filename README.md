@@ -35,4 +35,29 @@ Creating a summary statistics table to show:
 * The suspension coil’s PSI continuous variable across all manufacturing lots
 * The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+*The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?*
+
+The total for all the manufacturing lots are as follows:
+![total summary](https://user-images.githubusercontent.com/86750935/137645707-85851736-3ce0-4e6c-8725-35d38c456097.png)
+
+* mean is steady at 1498.78 in all 150 rows of the total_summary table.
+* standard deviation is reported at 7.892627 for all 150 rows of the total_summary table. 
+* median value of the table varies between 1452 and 1542. 
+* variance of the PSI sample distribution and the standard deviation are well within the design specifications for all 3 lots and does not exceed 100 pounds per square inch.
+
+An in depth of each lot is as follows:
+
+![lot summary](https://user-images.githubusercontent.com/86750935/137645697-fbecebcd-6a15-42b5-bdd6-5b6d77d10380.png)
+
+* Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. 
+* Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. Lot 3 is disproportionately causing the variance at the full lot level.
+
+## Deliverable 3 T-Tests on Suspension Coils
+
+* An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population 
+
+![del 3, 1](https://user-images.githubusercontent.com/86750935/137646091-425ba1f2-0778-4751-abbe-bee742f8e23a.png)
+
+* An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population 
+
+![del 3, 2](https://user-images.githubusercontent.com/86750935/137646095-91b4cb95-1e16-4f77-bfd6-06fc15a83cf9.png)
